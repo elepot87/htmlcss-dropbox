@@ -61,6 +61,7 @@ header {
 
 header a {
   color: #313131;
+  display: inline block;
 }
 
 header .nav-right ul li:last-child button a {
@@ -104,3 +105,16 @@ header .nav-right ul li {
 }
 
 /* Hero */
+.hero {
+  width: 80%;
+  margin: 0 auto;
+  background-color: red;
+}
+
+.col-small {
+  width: 40%;
+}
+
+.col-big {
+  width: 60%;
+}
