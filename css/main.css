@@ -24,6 +24,16 @@ h2 {
   margin-bottom: 35px;
 }
 
+h3 {
+  font-size: 24px;
+}
+
+h4 {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+}
+
 i {
   margin-right: 5px;
 }
@@ -105,6 +115,7 @@ header {
 header a {
   color: #313131;
   display: inline block;
+  text-decoration: none;
 }
 
 header .nav-right ul li:last-child button a {
@@ -150,7 +161,7 @@ header .nav-right ul li {
 /* Hero */
 .hero-container {
   width: 80%;
-  margin: 0 auto;
+  margin: 30px auto 0;
   position: relative;
   top: 80px;
 }
@@ -189,7 +200,7 @@ header .nav-right ul li {
 .container-section {
   background-color: red;
   margin: 150px auto;
-  width: 70%;
+  width: 72%;
 }
 
 .container-table .col {
@@ -211,4 +222,63 @@ header .nav-right ul li {
 
 .container-section label {
   margin-right: 20px;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: 700;
+  color: #000;
+}
+
+.duration {
+  color: #778591;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 10px;
+}
+
+ul.fa-ul {
+  padding-left: 25px;
+  margin: 40px 0 40px 0;
+  font-size: 14px;
+}
+
+ul.fa-ul li {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.row-2 button {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.row-2 button a {
+  color: #fff;
+}
+
+.purchase a {
+  color: #0061ff;
+  text-decoration: underline;
+}
+
+div.col hr {
+  border: none;
+  width: 20%;
+  border-top: 0.4px solid #778591;
+}
+
+div.row3 ul.fa-ul {
+  margin-top: 20px;
+}
+
+.fa-check {
+  color: #0061ff;
+}
+
+.empty:before {
+  height: 200px;
+  display: block;
+  content: "";
+  background-color: #fff;
 }
