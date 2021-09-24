@@ -10,6 +10,14 @@ body {
   font-family: "Open Sans", sans-serif;
 }
 
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 65px;
+}
+
 /* Utilities */
 
 .bg-lightblue {
@@ -31,8 +39,8 @@ body {
   padding-right: 16px;
 }
 
-a {
-  text-decoration: none;
+.mt-40 {
+  margin-top: 40px;
 }
 
 .btn {
@@ -109,6 +117,8 @@ header .nav-right ul li {
   width: 80%;
   margin: 0 auto;
   background-color: red;
+  position: relative;
+  top: 80px;
 }
 
 .col-small {
