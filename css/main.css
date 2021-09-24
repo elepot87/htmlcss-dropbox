@@ -12,6 +12,14 @@ body {
 
 /* Utilities */
 
+.bg-lightblue {
+  background-color: #b4d0e7;
+}
+
+.bg-w {
+  background-color: #fff;
+}
+
 .clearfix::after {
   content: "";
   display: table;
@@ -94,3 +102,5 @@ header .nav-left ul li {
 header .nav-right ul li {
   margin-left: 30px;
 }
+
+/* Hero */
