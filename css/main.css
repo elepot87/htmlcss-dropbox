@@ -1,0 +1,45 @@
+/* General */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+/* Utilities */
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.px-16 {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+/* Header */
+
+header {
+  position: relative;
+  line-height: 80px;
+}
+.nav-left {
+  background: yellow;
+  height: 80px;
+  float: left;
+  width: 50%;
+}
+
+.nav-right {
+  background: red;
+  height: 80px;
+  float: right;
+  width: 50%;
+  text-align: right;
+}
