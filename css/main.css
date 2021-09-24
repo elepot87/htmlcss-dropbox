@@ -170,3 +170,29 @@ header .nav-right ul li {
 .hero-container .fa-arrow-down {
   font-size: 40px;
 }
+
+/* Section content */
+
+.container-section {
+  background-color: red;
+  margin: 150px auto;
+  width: 70%;
+}
+
+.container-table .col {
+  width: 30%;
+  border: 1px solid black;
+  margin-right: 5%;
+  padding-left: 16px;
+}
+
+.container-table .col:last-child {
+  margin-right: 0;
+}
+
+.container-table .row-1 {
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+  border-bottom: 1px solid black;
+}
