@@ -198,14 +198,14 @@ header .nav-right ul li {
 /* Section content */
 
 .container-section {
-  background-color: red;
+  background-color: #fff;
   margin: 150px auto;
   width: 72%;
 }
 
 .container-table .col {
   width: 30%;
-  border: 1px solid black;
+  border: 1px solid #dbdbde;
   margin-right: 5%;
 }
 
@@ -217,7 +217,7 @@ header .nav-right ul li {
   text-align: center;
   height: 50px;
   line-height: 50px;
-  border-bottom: 1px solid black;
+  border-bottom: 1px solid #dbdbde;
 }
 
 .container-section label {
@@ -265,7 +265,7 @@ ul.fa-ul li {
 div.col hr {
   border: none;
   width: 20%;
-  border-top: 0.4px solid #778591;
+  border-top: 0.4px solid #dbdbde;
 }
 
 div.row3 ul.fa-ul {
@@ -280,5 +280,8 @@ div.row3 ul.fa-ul {
   height: 200px;
   display: block;
   content: "";
-  background-color: #fff;
+}
+
+.col:first-child .empty:before {
+  height: 240px;
 }
