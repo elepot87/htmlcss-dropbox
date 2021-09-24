@@ -105,7 +105,7 @@ header .nav-right ul li {
 }
 
 /* Hero */
-.hero {
+.hero-container {
   width: 80%;
   margin: 0 auto;
   background-color: red;
@@ -117,4 +117,8 @@ header .nav-right ul li {
 
 .col-big {
   width: 60%;
+}
+
+.hero-container img {
+  max-width: 100%;
 }
