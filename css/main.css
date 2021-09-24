@@ -119,7 +119,7 @@ header {
 
 header a {
   color: #313131;
-  display: inline block;
+  display: inline-block;
   text-decoration: none;
 }
 
