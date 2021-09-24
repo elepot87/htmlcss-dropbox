@@ -34,6 +34,11 @@ h4 {
   color: #000;
 }
 
+h5 {
+  font-size: 15px;
+  font-weight: 700;
+}
+
 i {
   margin-right: 5px;
 }
@@ -213,7 +218,8 @@ header .nav-right ul li {
   margin-right: 0;
 }
 
-.container-table .row-1 {
+.container-table .row-1,
+.enterprise .row-1 {
   text-align: center;
   height: 50px;
   line-height: 50px;
@@ -284,4 +290,20 @@ div.row3 ul.fa-ul {
 
 .col:first-child .empty:before {
   height: 240px;
+}
+.enterprise {
+  border: 1px solid #dbdbde;
+  padding-bottom: 20px;
+}
+
+.enterprise .row-2 .col:first-child {
+  width: 75%;
+}
+
+.enterprise .row-2 .col:last-child {
+  width: 25%;
+}
+
+.text-enterprise {
+  font-size: 14px;
 }
