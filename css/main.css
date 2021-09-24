@@ -23,12 +23,17 @@ body {
   padding-right: 16px;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Header */
 
 header {
   position: relative;
   line-height: 80px;
 }
+
 .nav-left {
   background: yellow;
   height: 80px;
@@ -42,4 +47,30 @@ header {
   float: right;
   width: 50%;
   text-align: right;
+}
+
+header a img.brand {
+  vertical-align: middle;
+}
+
+header ul {
+  list-style: none;
+  display: inline-block;
+}
+
+header ul li,
+header ul li a {
+  display: inline-block;
+}
+
+header .nav-left ul li {
+  margin-right: 20px;
+}
+
+header .nav-right ul li {
+  margin-left: 20px;
+}
+
+header .nav-left ul {
+  margin-left: 25px;
 }
