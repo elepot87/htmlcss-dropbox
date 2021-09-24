@@ -35,6 +35,14 @@ a {
   width: 80px;
 }
 
+.float-l {
+  float: left;
+}
+
+.float-r {
+  float: right;
+}
+
 /* Header */
 
 header {
@@ -51,14 +59,10 @@ header .nav-right ul li:last-child button a {
 }
 
 .nav-left {
-  height: 80px;
-  float: left;
   width: 50%;
 }
 
 .nav-right {
-  height: 80px;
-  float: right;
   width: 50%;
   text-align: right;
 }
