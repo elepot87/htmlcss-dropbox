@@ -80,6 +80,11 @@ i {
   margin-bottom: 30px;
 }
 
+.my-25 {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
 .btn {
   background-color: #0061ff;
   border: none;
@@ -95,6 +100,17 @@ i {
   height: 40px;
   line-height: 40px;
   width: 200px;
+}
+
+.btn-medium {
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.btn-fill {
+  background-color: #fff;
+  border: 1px solid #3f3f3f;
 }
 
 .float-l {
@@ -200,11 +216,11 @@ header .nav-right ul li {
   font-size: 40px;
 }
 
-/* Section content */
+/* Section content columns */
 
 .container-section {
   background-color: #fff;
-  margin: 150px auto;
+  margin: 150px auto 0;
   width: 72%;
 }
 
@@ -306,4 +322,30 @@ div.row3 ul.fa-ul {
 
 .text-enterprise {
   font-size: 14px;
+}
+
+/* Section Partner */
+
+.partner .container-section {
+  margin: 80px auto;
+}
+
+.partner .container-section .col:first-child {
+  width: 55%;
+}
+
+.partner .container-section .col:last-child {
+  width: 45%;
+  padding: 60px 2px 60px 40px;
+}
+
+.partner .container-section img {
+  object-fit: cover;
+  max-width: 100%;
+}
+
+.partner a {
+  color: #3f3f3f;
+  font-size: 16px;
+  font-weight: 500;
 }
