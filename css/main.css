@@ -125,6 +125,10 @@ i {
   float: right;
 }
 
+.underline {
+  text-decoration: underline;
+}
+
 /* Header */
 
 header {
@@ -222,8 +226,7 @@ header .nav-right ul li {
 
 /* Section content columns */
 
-.container-section {
-  background-color: #fff;
+.business .container-section {
   margin: 150px auto 0;
   width: 72%;
 }
@@ -332,6 +335,7 @@ div.row3 ul.fa-ul {
 
 .partner .container-section {
   margin: 80px auto;
+  width: 72%;
 }
 
 .partner .container-section .col:first-child {
@@ -354,10 +358,10 @@ div.row3 ul.fa-ul {
   font-weight: 500;
 }
 
+/* Section Features */
 .features .container-section {
-  margin-top: 40px;
-  margin-bottom: 40px;
-  background-color: red;
+  margin: 100px auto 150px;
+  width: 72%;
 }
 
 .features .col {
@@ -365,7 +369,7 @@ div.row3 ul.fa-ul {
 }
 
 .features .col img {
-  max-width: 80%;
+  max-width: 100%;
 }
 
 .features .col {
