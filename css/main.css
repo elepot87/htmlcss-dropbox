@@ -20,7 +20,7 @@ h1 {
 }
 
 h2 {
-  font-size: 30px;
+  font-size: 35px;
   margin-bottom: 35px;
 }
 
@@ -81,6 +81,10 @@ i {
   background-color: #ffd830;
 }
 
+.bg-grey {
+  background-color: #f5f5f5;
+}
+
 .clearfix::after {
   content: "";
   display: table;
@@ -119,6 +123,11 @@ i {
 
 .btn {
   background-color: #0061ff;
+  border: none;
+}
+
+.btn-secondary {
+  background-color: #fff;
   border: none;
 }
 
@@ -423,7 +432,7 @@ div.row3 ul.fa-ul {
 }
 
 .team h2 {
-  width: 42%;
+  width: 49%;
 }
 
 .container-col .col:first-child,
@@ -457,10 +466,6 @@ div.row3 ul.fa-ul {
   filter: invert(1);
 }
 
-.bg-grey {
-  background-color: #f5f5f5;
-}
-
 .col-text img {
   max-width: 20%;
 }
@@ -474,4 +479,35 @@ div.col-text hr {
 
 .col-text p {
   width: 94%;
+}
+
+/* CTA Section */
+
+.CTA .container-cta {
+  width: 72%;
+  margin: 0px auto;
+  padding: 100px 0 50px 0;
+}
+
+.container-cta .col:first-child {
+  width: 70%;
+}
+
+.container-cta .col:last-child {
+  width: 30%;
+}
+
+.container-cta h2 {
+  width: 58%;
+  color: #61082b;
+}
+
+.container-cta .col button {
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+.container-cta .col button a {
+  color: #3f3f3f;
+  font-weight: 500;
 }
