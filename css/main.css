@@ -53,6 +53,34 @@ i {
   background-color: #fff;
 }
 
+.bg-green {
+  background-color: #a2d39b;
+}
+
+.bg-bordeaux {
+  background-color: #61082b;
+}
+
+.bg-lightblue-florida {
+  background-color: #0093ce;
+}
+
+.bg-red {
+  background-color: #ff1c1c;
+}
+
+.bg-darkred {
+  background-color: #d5001f;
+}
+
+.bg-darkblue {
+  background-color: #0d2481;
+}
+
+.bg-yellow {
+  background-color: #ffd830;
+}
+
 .clearfix::after {
   content: "";
   display: table;
@@ -390,10 +418,60 @@ div.row3 ul.fa-ul {
 /* Team Section */
 
 .team .container-section {
-  margin: 170px auto 150px;
+  margin: 170px auto 50px;
   width: 72%;
 }
 
 .team h2 {
   width: 42%;
+}
+
+.container-col .col:first-child,
+.container-col .col:last-child {
+  width: 28%;
+}
+
+.container-col .col-text {
+  width: 44%;
+  height: 400px;
+  padding: 45px 45px 0;
+  font-weight: 500;
+}
+
+.col-logo {
+  width: 50%;
+  height: 200px;
+}
+
+.border {
+  border: 10px solid #d0e9cd;
+}
+
+.col-logo img {
+  max-width: 50%;
+  object-fit: cover;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  filter: invert(1);
+}
+
+.bg-grey {
+  background-color: #f5f5f5;
+}
+
+.col-text img {
+  max-width: 20%;
+}
+
+div.col-text hr {
+  border: none;
+  width: 15%;
+  border-top: 1px solid #dbdbde;
+  margin: 30px 0 40px 0;
+}
+
+.col-text p {
+  width: 94%;
 }
