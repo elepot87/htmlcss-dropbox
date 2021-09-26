@@ -386,3 +386,14 @@ div.row3 ul.fa-ul {
 .features p {
   margin-top: 15px;
 }
+
+/* Team Section */
+
+.team .container-section {
+  margin: 170px auto 150px;
+  width: 72%;
+}
+
+.team h2 {
+  width: 42%;
+}
