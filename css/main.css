@@ -85,6 +85,10 @@ i {
   background-color: #f5f5f5;
 }
 
+.bg-black {
+  background-color: #000;
+}
+
 .clearfix::after {
   content: "";
   display: table;
@@ -94,6 +98,11 @@ i {
 .px-16 {
   padding-left: 16px;
   padding-right: 16px;
+}
+
+.py-50 {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .mt-100 {
@@ -547,4 +556,65 @@ div.col-text hr {
 
 .br-bt {
   border-bottom: 0.4px solid #dbdbde;
+}
+
+/* Footer */
+
+.footer-container {
+  width: 80%;
+  margin: 30px auto 0;
+  padding: 80px 16px 50px;
+  color: #fff;
+}
+
+.footer-container .col {
+  width: 11%;
+  margin-right: 11%;
+}
+.footer-container .col:last-child {
+  margin-right: 0;
+}
+
+.footer-container h5 {
+  font-size: 20px;
+}
+
+.footer-container ul {
+  list-style: none;
+}
+
+.footer-container ul li:first-child {
+  margin-top: 15px;
+}
+
+.footer-container ul li {
+  margin-top: 5px;
+}
+
+.footer-container ul li a {
+  color: #fff;
+  font-size: 12px;
+}
+
+.footer-container hr {
+  border: none;
+  width: 10%;
+  border-top: 1px solid #dbdbde;
+  margin: 80px 0 50px 0;
+}
+
+.footer-container .language i {
+  margin: 0;
+}
+
+.footer-container .language {
+  font-size: 12px;
+  color: grey;
+  line-height: 12px;
+}
+
+.footer-container .language .fa-sort-up {
+  vertical-align: middle;
+  position: relative;
+  top: 2px;
 }
