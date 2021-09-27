@@ -185,6 +185,7 @@ header {
   top: 0;
   z-index: 1;
   width: 100%;
+  border-bottom: 1px solid #dbdbde;
 }
 
 header a {
@@ -220,6 +221,14 @@ header ul li,
 header ul li a {
   display: inline-block;
   text-align: center;
+}
+
+header ul li a {
+  border-bottom: 2px solid rgba(0, 0, 0, 0);
+}
+
+header ul li a:hover {
+  border-bottom: 2px solid #3f3f3f;
 }
 
 header .nav-left ul {
