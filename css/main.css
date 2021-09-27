@@ -270,6 +270,7 @@ header .nav-right ul li {
 
 .container-table .col {
   width: 30%;
+  height: 1000px;
   border: 1px solid #dbdbde;
   margin-right: 5%;
 }
@@ -342,11 +343,14 @@ div.row3 ul.fa-ul {
   color: #0061ff;
 }
 
+/* div vuoto per altezza */
+/* 
 .empty:before {
   height: 200px;
   display: block;
   content: "";
 }
+*/
 
 .col:first-child .empty:before {
   height: 240px;
