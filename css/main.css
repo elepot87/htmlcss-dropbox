@@ -11,6 +11,10 @@ body {
   font-size: 15px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 a {
   text-decoration: none;
 }
@@ -277,6 +281,10 @@ header .nav-right ul li {
   display: inline-block;
   text-align: center;
   font-size: 14px;
+}
+
+.hero-container a .fa-arrow-down {
+  color: #000;
 }
 
 .hero-container .fa-arrow-down {
