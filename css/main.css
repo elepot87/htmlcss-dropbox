@@ -140,7 +140,7 @@ i {
 .btn-big {
   height: 40px;
   line-height: 40px;
-  width: 200px;
+  width: 220px;
 }
 
 .btn-medium {
@@ -184,7 +184,7 @@ header a {
   text-decoration: none;
 }
 
-header .nav-right ul li:last-child button a {
+header .nav-right ul li:last-child a {
   color: #fff;
 }
 
@@ -210,6 +210,7 @@ header ul {
 header ul li,
 header ul li a {
   display: inline-block;
+  text-align: center;
 }
 
 header .nav-left ul {
@@ -253,8 +254,11 @@ header .nav-right ul li {
 .hero-container p.disclaimer {
   font-size: 12px;
 }
-.hero-container button a {
+.hero-container a {
   color: #fff;
+  display: inline-block;
+  text-align: center;
+  font-size: 14px;
 }
 
 .hero-container .fa-arrow-down {
@@ -315,13 +319,13 @@ ul.fa-ul li {
   margin-bottom: 20px;
 }
 
-.row-2 button {
+.row-2 a.btn {
+  color: #fff;
+  display: inline-block;
   width: 100%;
   margin-bottom: 20px;
-}
-
-.row-2 button a {
-  color: #fff;
+  text-align: center;
+  font-size: 14px;
 }
 
 .purchase a {
@@ -395,8 +399,10 @@ div.row3 ul.fa-ul {
 
 .partner a {
   color: #3f3f3f;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 500;
+  text-align: center;
+  display: inline-block;
 }
 
 /* Section Features */
@@ -506,14 +512,13 @@ div.col-text hr {
   color: #61082b;
 }
 
-.container-cta .col button {
-  width: 90%;
-  margin-bottom: 20px;
-}
-
-.container-cta .col button a {
+.container-cta .col a {
   color: #3f3f3f;
   font-weight: 500;
+  width: 90%;
+  margin-bottom: 20px;
+  display: inline-block;
+  text-align: center;
 }
 
 /* Faq */
