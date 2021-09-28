@@ -562,9 +562,22 @@ div.col-text hr {
   width: 10%;
 }
 
-.faq .row {
-  height: 80px;
-  line-height: 80px;
+.faq .row h5,
+.faq .row .fa-chevron-down {
+  margin: 20px 0;
+}
+
+.faq .row p {
+  margin: 15px 0;
+  display: none;
+}
+
+.faq .row:hover p {
+  display: block;
+}
+
+.faq .row:hover .fa-chevron-down {
+  transform: rotate(180deg);
 }
 
 .br-top {
