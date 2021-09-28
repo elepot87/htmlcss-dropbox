@@ -326,7 +326,73 @@ li:hover .dropdown-content a {
   font-size: 40px;
 }
 
-/* Section content columns */
+/* Section content columns Business */
+
+/* Radio button */
+
+.container-section label {
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 16px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Nascondere il radio button di default */
+.container-section input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Creare un custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* All'hover, aggiungere uno sfondo grigio */
+.container-section label:hover .checkmark {
+  background-color: #ccc;
+}
+
+/* Quando il radio button è selezionatpm (checked), aggiungere uno sfondo blu */
+.container-section label input:checked ~ .checkmark {
+  background-color: #2196f3;
+}
+
+/* Create the indicator Creare l'indicatore circolare, ma nasconderlo quando non è selezionato */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Mostrare l'indicatore quando è selezionatp (checked) */
+.container-section label input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Dare uno stile all'indicatore (cerchio) */
+.container-section label .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+/* Sezione con colonne */
 
 .business .container-section {
   margin: 150px auto 0;
